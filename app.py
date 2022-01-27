@@ -46,3 +46,11 @@ DIZIONARIO = {' ': '_',
 	'Y': '-.--', 
 	'Z': '--..', 
 	'_': '..--.-'}
+ 
+def convertiAMorse(stringa):
+    stringa = stringa.upper()
+    stringaConvertita = ""
+    for char in stringa:
+        stringaConvertita += DIZIONARIO[char] + " " 
+    return stringaConvertita
+ 
