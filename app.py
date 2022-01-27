@@ -54,3 +54,7 @@ def convertiAMorse(stringa):
         stringaConvertita += DIZIONARIO[char] + " " 
     return stringaConvertita
  
+
+StringaDaConvertire = input("Inserire la Stringa Da Convertire in codice morse: ")
+StrConvertita = convertiAMorse(StringaDaConvertire)
+print(StrConvertita)
